@@ -1,23 +1,6 @@
 #!/bin/bash
 
-# A fuller is someone who, you could say, "bashes" woolen fabric in
-# order to clean and tighten it. Hence, Fuller's Fabric, a pure Bash
-# replacement for Fabric, the Python tool we've used for many years
-# simplify some of the common shell commands we use to interact with
-# our Docker deployment of UKF.
-
-# To intall simply copy this file into ukf/deploy/ and add this alias
-# to your ~/.bashrc (or equivalent):
-# ```
-# fullers() {
-#   starting_dir=$(pwd)
-#   cd ~/Beauhurst/ukf/deploy/
-#   ./fullers_fabric.sh "$@"
-#   cd $starting_dir
-# }
-# ```
-
-# I found this repo very useful: the [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
+# Fuller's Fabric - a pure Bash replacement for Fabric.
 
 # TODO - keyword arguments in options
 # TODO - print docstrings (with args) when listing commands
