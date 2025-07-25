@@ -36,7 +36,7 @@
 ```
 
 A [fuller](https://en.wikipedia.org/wiki/Fulling) is someone who, you could
-say, "bashes" woolen fabric in order to clean and tighten it. Hence, Fuller's
+say, "bashes" woollen fabric in order to clean and tighten it. Hence, Fuller's
 Fabric, a pure Bash replacement for Fabric, the Python tool we've used for many
 years to simplify some of the shell commands we commonly use to interact with
 our Docker deployment of UKF.
