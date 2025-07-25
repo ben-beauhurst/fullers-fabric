@@ -38,8 +38,8 @@
 A [fuller](https://en.wikipedia.org/wiki/Fulling) is someone who, you could
 say, "bashes" woolen fabric in order to clean and tighten it. Hence, Fuller's
 Fabric, a pure Bash replacement for Fabric, the Python tool we've used for many
-years simplify some of the common shell commands we use to interact with our
-Docker deployment of UKF.
+years to simplify some of the shell commands we commonly use to interact with
+our Docker deployment of UKF.
 
 To intall simply copy fullers_fabric.sh into ukf/deploy/, make sure it's
 executable (`sudo chmod +x fullers_fabric.sh`), and add this alias to your
