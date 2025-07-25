@@ -41,8 +41,9 @@ Fabric, a pure Bash replacement for Fabric, the Python tool we've used for many
 years simplify some of the common shell commands we use to interact with our
 Docker deployment of UKF.
 
-To intall simply copy this file into ukf/deploy/ and add this alias
-to your ~/.bashrc (or equivalent):
+To intall simply copy fullers_fabric.sh into ukf/deploy/, make sure it's
+executable (`sudo chmod +x fullers_fabric.sh`), and add this alias to your
+~/.bashrc (or equivalent):
 
 ```bash
 fullers() {
@@ -53,5 +54,6 @@ fullers() {
 }
 ```
 
-I found this repo very useful, the [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible), in the making of this.
+And then you can call `fullers` (or some shorter alias) from anywhere.
 
+I found this repo very useful, the [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible), in the making of this.
